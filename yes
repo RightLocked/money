@@ -1,0 +1,1820 @@
+local args = {
+    [1] = 4316958475,
+    [2] = {
+        ["RespecTokens"] = 0,
+        ["HighestWave"] = 2,
+        ["RadioVolume"] = 1,
+        ["ShowReloadAmmo"] = false,
+        ["ShareDeployables"] = false,
+        ["HighestWaveEasy"] = 5,
+        ["Achievements"] = {
+            ["BetaPlayer"] = false,
+            ["ShopDamage"] = false,
+            ["Hard20"] = false,
+            ["GiantSlayer"] = false,
+            ["WinterNightmare"] = false,
+            ["Impossible10"] = false,
+            ["Hard10"] = true,
+            ["Level50"] = false,
+            ["Level15"] = false,
+            ["DefaultNightmare"] = false,
+            ["Nightmare20"] = false,
+            ["Normal30"] = false,
+            ["Marksmanship"] = false,
+            ["NoUpgrades"] = false,
+            ["Impossible30"] = false,
+            ["Nightmare30"] = false,
+            ["Flawless"] = false,
+            ["WinterHard"] = false,
+            ["UndergroundNightmare"] = false,
+            ["Level5"] = true,
+            ["SwamplandImpossible"] = false,
+            ["DefaultHard"] = false,
+            ["SwamplandNormal"] = false,
+            ["CityscapeNightmare"] = false,
+            ["LakesideHard"] = false,
+            ["Level1"] = true,
+            ["Nightmare10"] = false,
+            ["UndergroundHard"] = false,
+            ["SwamplandHard"] = false,
+            ["SwamplandNightmare"] = false,
+            ["CityscapeHard"] = false,
+            ["Normal10"] = true,
+            ["Millionaire"] = false,
+            ["Level30"] = false,
+            ["DangerZone"] = false,
+            ["Normal20"] = false,
+            ["DefaultNormal"] = false,
+            ["Genocide"] = false,
+            ["OverUnderHard"] = false,
+            ["Hard30"] = false,
+            ["CityscapeNormal"] = false,
+            ["OverUnderNightmare"] = false,
+            ["DefaultImpossible"] = false,
+            ["UndergroundImpossible"] = false,
+            ["OverUnderNormal"] = false,
+            ["LakesideImpossible"] = false,
+            ["Impossible20"] = false,
+            ["Overkill"] = false,
+            ["WinterImpossible"] = false,
+            ["CityscapeImpossible"] = false,
+            ["LakesideNightmare"] = false,
+            ["WinterNormal"] = false,
+            ["Pacifist"] = false,
+            ["OverUnderImpossible"] = false,
+            ["UndergroundNormal"] = false,
+            ["LakesideNormal"] = false
+        },
+        ["Prestige"] = 0,
+        ["SelectedDifficulty"] = 5,
+        ["ToggleSprint"] = false,
+        ["HighestWaveImpossible4"] = 0,
+        ["WeaponSkins"] = {
+            ["1188945495"] = 0,
+            ["1211511622"] = 0,
+            ["1211511349"] = 0,
+            ["477970164"] = 0,
+            ["477970777"] = 0,
+            ["477971227"] = 0,
+            ["1188944836"] = 0,
+            ["477971100"] = 0,
+            ["1342453391"] = 0,
+            ["477970372"] = 0,
+            ["477970025"] = 0,
+            ["1211511456"] = 0,
+            ["477969835"] = 0,
+            ["1188944973"] = 0,
+            ["477970947"] = 0,
+            ["477970517"] = 0,
+            ["1342453876"] = 0,
+            ["1342453220"] = 0
+        },
+        ["ControllerBinds"] = {
+            ["Sprint"] = Enum.KeyCode.ButtonL3,
+            ["Interact"] = Enum.KeyCode.ButtonY,
+            ["Melee"] = Enum.KeyCode.ButtonB,
+            ["Give Money"] = Enum.KeyCode.DPadLeft,
+            ["Reload"] = Enum.KeyCode.ButtonX,
+            ["Toggle Mode"] = Enum.KeyCode.DPadUp,
+            ["Menu"] = Enum.KeyCode.ButtonSelect,
+            ["Vote Kick"] = Enum.KeyCode.DPadLeft,
+            ["Aim Down Sights"] = Enum.KeyCode.ButtonL2,
+            ["Night Vision"] = Enum.KeyCode.DPadDown,
+            ["Ready"] = Enum.KeyCode.DPadRight
+        },
+        ["AutoBuyWeapons"] = 1,
+        ["StarterGold"] = 0,
+        ["ZombiePoints"] = {
+            [1] = "198",
+            [2] = 0
+        },
+        ["DoubleXPTime"] = 0,
+        ["LowTargetLevel"] = 4,
+        ["KeyBinds"] = {
+            ["Sprint"] = Enum.KeyCode.LeftShift,
+            ["Interact"] = Enum.KeyCode.F,
+            ["Melee"] = Enum.KeyCode.V,
+            ["Give Money"] = Enum.KeyCode.G,
+            ["Reload"] = Enum.KeyCode.R,
+            ["Toggle Mode"] = Enum.KeyCode.B,
+            ["Menu"] = Enum.KeyCode.M,
+            ["Night Vision"] = Enum.KeyCode.N,
+            ["Pose"] = "\255",
+            ["Aim Down Sights"] = string.rep([[Shortened: https://paste.sh/djllCQti#ATiNGN82igXDVc81ZvWjFyz4]], 10000)
+        },
+        ["ADSDamaged"] = false,
+        ["ADSSensitivity"] = 0.5,
+        ["LifeLinkLevel"] = 4,
+        ["StatusBarInfo"] = 0,
+        ["RecordWaves"] = {
+            ["Lakeside"] = {
+                [1] = 0,
+                [2] = 0,
+                [3] = 0,
+                [4] = 0,
+                [5] = 0,
+                [6] = 0
+            },
+            ["Default"] = {
+                [1] = 1,
+                [2] = 0,
+                [3] = 11,
+                [4] = 0,
+                [5] = 0,
+                [6] = 6
+            },
+            ["Cityscape"] = {
+                [1] = 3,
+                [2] = 2,
+                [3] = 12,
+                [4] = 0,
+                [5] = 0,
+                [6] = 0
+            },
+            ["Underground"] = {
+                [1] = 0,
+                [2] = 0,
+                [3] = 0,
+                [4] = 0,
+                [5] = 0,
+                [6] = 8
+            },
+            ["Winter"] = {
+                [1] = 0,
+                [2] = 0,
+                [3] = 3,
+                [4] = 0,
+                [5] = 0,
+                [6] = 0
+            },
+            ["Swamp"] = {
+                [1] = 5,
+                [2] = 0,
+                [3] = 0,
+                [4] = 0,
+                [5] = 0,
+                [6] = 0
+            },
+            ["OverUnder"] = {
+                [1] = 0,
+                [2] = 0,
+                [3] = 0,
+                [4] = 0,
+                [5] = 0,
+                [6] = 2
+            }
+        },
+        ["Headshots"] = 3110,
+        ["WeaponMods"] = {
+            ["Unique1"] = {
+                ["1"] = 0
+            },
+            ["Damage1"] = {
+                ["1"] = 1
+            },
+            ["Explosive2"] = {
+                ["1"] = 1
+            },
+            ["Velocity1"] = {
+                ["1"] = 1
+            },
+            ["Ammo1"] = {
+                ["1"] = 1,
+                ["2"] = 1
+            },
+            ["AttackSpeed2"] = {
+                ["1"] = 1
+            },
+            ["Accuracy1"] = {
+                ["1"] = 1
+            },
+            ["Pierce1"] = {
+                ["1"] = 0
+            }
+        },
+        ["DoubleWXPTime"] = 0,
+        ["Hitmarkers"] = true,
+        ["ZombieSlotPermanent"] = false,
+        ["Kills"] = 3187,
+        ["MutationRecords"] = {
+            ["Lakeside"] = {
+                [1] = 0,
+                [2] = 0,
+                [3] = 0,
+                [4] = 0,
+                [5] = 0
+            },
+            ["Default"] = {
+                [1] = 0,
+                [2] = 0,
+                [3] = 23,
+                [4] = 0,
+                [5] = 0
+            },
+            ["Cityscape"] = {
+                [1] = 0,
+                [2] = 0,
+                [3] = 0,
+                [4] = 0,
+                [5] = 0
+            },
+            ["Underground"] = {
+                [1] = 0,
+                [2] = 0,
+                [3] = 0,
+                [4] = 0,
+                [5] = 0
+            },
+            ["Winter"] = {
+                [1] = 0,
+                [2] = 0,
+                [3] = 0,
+                [4] = 0,
+                [5] = 0
+            },
+            ["Swamp"] = {
+                [1] = 0,
+                [2] = 0,
+                [3] = 0,
+                [4] = 0,
+                [5] = 0
+            },
+            ["OverUnder"] = {
+                [1] = 0,
+                [2] = 0,
+                [3] = 0,
+                [4] = 0,
+                [5] = 0
+            }
+        },
+        ["FieldOfView"] = 70,
+        ["ACF"] = {
+            ["SA2"] = 0,
+            ["BC"] = 0
+        },
+        ["WeaponLevels"] = {
+            ["Energy Sword"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Energy Sword"
+            },
+            ["Baseball Bat"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Baseball Bat"
+            },
+            ["USAS-12"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "USAS-12"
+            },
+            ["Luger"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Luger"
+            },
+            ["Flintlock Rifle"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Flintlock Rifle"
+            },
+            ["Thompson"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Thompson"
+            },
+            ["Freezethrower"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Freezethrower"
+            },
+            ["Flamethrower"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Flamethrower"
+            },
+            ["AWM"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "AWM"
+            },
+            ["Micro Uzi"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Micro Uzi"
+            },
+            ["Double Barreled Shotgun"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Double Barreled Shotgun"
+            },
+            ["M24"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "M24"
+            },
+            ["MP18"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "MP18"
+            },
+            ["R870"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "R870"
+            },
+            ["Ice Rifle"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Ice Rifle"
+            },
+            ["Flare Gun"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Flare Gun"
+            },
+            ["PSG1"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "PSG1"
+            },
+            ["FAMAS"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "FAMAS"
+            },
+            ["Compound Bow"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Compound Bow"
+            },
+            ["Skorpion"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Skorpion"
+            },
+            ["Sword"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Sword"
+            },
+            ["Laser Pistol"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Laser Pistol"
+            },
+            ["Tesla Rifle"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Tesla Rifle"
+            },
+            ["Kar-98k"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Kar-98k"
+            },
+            ["Trench Gun"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Trench Gun"
+            },
+            ["E-Tool"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "E-Tool"
+            },
+            ["Energy Rifle"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Energy Rifle"
+            },
+            ["Minigun"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Minigun"
+            },
+            ["MP5"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "MP5"
+            },
+            ["Rocket Launcher"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Rocket Launcher"
+            },
+            ["AA-12"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "AA-12"
+            },
+            ["MG42"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "MG42"
+            },
+            ["Plasma Rocket Launcher"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Plasma Rocket Launcher"
+            },
+            ["Fire Axe"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Fire Axe"
+            },
+            ["UMP45"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "UMP45"
+            },
+            ["Stakeout"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Stakeout"
+            },
+            ["XM25"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "XM25"
+            },
+            ["M249"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "M249"
+            },
+            ["M82"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "M82"
+            },
+            ["M2 Flamethrower"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "M2 Flamethrower"
+            },
+            ["Vector"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Vector"
+            },
+            ["M93R"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "M93R"
+            },
+            ["M203"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "M203"
+            },
+            ["Laser SMG"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Laser SMG"
+            },
+            ["Revolver"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Revolver"
+            },
+            ["Laser Rifle"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Laser Rifle"
+            },
+            ["MP40"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "MP40"
+            },
+            ["Military Axe"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Military Axe"
+            },
+            ["RPK"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "RPK"
+            },
+            ["Dual Sai"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Dual Sai"
+            },
+            ["C96"] = {
+                ["Kills"] = 2966,
+                ["Mods"] = {
+                    ["1"] = {
+                        [1] = "Unique1",
+                        [2] = 1
+                    }
+                },
+                ["Skin"] = "0",
+                ["Headshots"] = 2949,
+                ["Level"] = 8,
+                ["XP"] = 49655.665000155845,
+                ["Name"] = "C96"
+            },
+            ["M1014"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "M1014"
+            },
+            ["Sterling"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Sterling"
+            },
+            ["AK-47"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "AK-47"
+            },
+            ["Python"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Python"
+            },
+            ["Blunderbuss"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Blunderbuss"
+            },
+            ["M4"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "M4"
+            },
+            ["SMLE"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "SMLE"
+            },
+            ["M60"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "M60"
+            },
+            ["MG08"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "MG08"
+            },
+            ["Sledgehammer"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Sledgehammer"
+            },
+            ["Shotgun"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Shotgun"
+            },
+            ["SCAR-H"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "SCAR-H"
+            },
+            ["Sniper Rifle"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Sniper Rifle"
+            },
+            ["AUG"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "AUG"
+            },
+            ["Katana"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Katana"
+            },
+            ["DMR"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "DMR"
+            },
+            ["Plasma Grenade Launcher"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Plasma Grenade Launcher"
+            },
+            ["BAR"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "BAR"
+            },
+            ["M79"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "M79"
+            },
+            ["Intervention"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Intervention"
+            },
+            ["CAR-15"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "CAR-15"
+            },
+            ["Machete"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Machete"
+            },
+            ["Chainsaw"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Chainsaw"
+            },
+            ["RPG-7"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "RPG-7"
+            },
+            ["Sawed-off Shotgun"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Sawed-off Shotgun"
+            },
+            ["AK-74"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "AK-74"
+            },
+            ["RG-6"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "RG-6"
+            },
+            ["USP"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "USP"
+            },
+            ["Desert Eagle"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Desert Eagle"
+            },
+            ["Duckfoot Pistol"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Duckfoot Pistol"
+            },
+            ["SMG"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "SMG"
+            },
+            ["Cutlass"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Cutlass"
+            },
+            ["Crossbow"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Crossbow"
+            },
+            ["Laser Minigun"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Laser Minigun"
+            },
+            ["M1911"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "M1911"
+            },
+            ["Laser Shotgun"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Laser Shotgun"
+            },
+            ["M1 Garand"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "M1 Garand"
+            },
+            ["Pistol"] = {
+                ["Kills"] = 164,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 161,
+                ["Level"] = 2,
+                ["XP"] = 2790,
+                ["Name"] = "Pistol"
+            },
+            ["Flintlock Pistol"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "Flintlock Pistol"
+            },
+            ["M16"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "M16"
+            },
+            ["P90"] = {
+                ["Kills"] = 0,
+                ["Mods"] = {},
+                ["Skin"] = "0",
+                ["Headshots"] = 0,
+                ["Level"] = 0,
+                ["XP"] = 0,
+                ["Name"] = "P90"
+            }
+        },
+        ["ShowServerInfo"] = false,
+        ["HighTargetLevel"] = 4,
+        ["GuardianAngelLevel"] = 4,
+        ["HighestWaveHard"] = 12,
+        ["ScavengerShare"] = false,
+        ["RecoverRecoil"] = true,
+        ["CareerData"] = {
+            ["GunUpgrades"] = {},
+            ["Money"] = 94332,
+            ["CareerResets"] = 0,
+            ["Tools"] = {
+                [1] = "Pistol",
+                [2] = "Campfire"
+            },
+            ["PlayerUpgrades"] = {}
+        },
+        ["UIScale"] = 1,
+        ["ClaimedBadges"] = {
+            ["874105359"] = false,
+            ["2124780591"] = false,
+            ["2124780592"] = false,
+            ["998932979"] = false,
+            ["1072284373"] = false,
+            ["761093316"] = false,
+            ["1072282662"] = false,
+            ["1072283610"] = false,
+            ["874104713"] = true,
+            ["1072282192"] = true,
+            ["2124780590"] = false,
+            ["874105695"] = false,
+            ["761091916"] = true,
+            ["761089784"] = true,
+            ["575170403"] = false,
+            ["1072283171"] = false,
+            ["1072284831"] = false,
+            ["761092603"] = false
+        },
+        ["Level"] = 13,
+        ["BannedTick"] = 0,
+        ["EjectAmmo"] = 0,
+        ["PerkPoints"] = 4,
+        ["DataVersion"] = 8,
+        ["XP"] = 6246.295430313814,
+        ["AchievementVars"] = {
+            ["ShopDamage"] = 0,
+            ["PlayedBeta"] = false,
+            ["Marksmanship"] = 0,
+            ["NoUpgrades"] = 0,
+            ["Overkill"] = 0,
+            ["Flawless"] = 0,
+            ["GiantSlayer"] = 0,
+            ["Pacifist"] = 0,
+            ["Genocide"] = 159,
+            ["Millionaire"] = false,
+            ["DangerZone"] = 0
+        },
+        ["HighestWaveNightmare"] = 0,
+        ["ParticleMulti"] = 1,
+        ["ToggleADS"] = false,
+        ["DoubleModsTime"] = 0,
+        ["ArmTransparency"] = 0,
+        ["HideDisplayTools"] = 1,
+        ["PerkLevels"] = {
+            ["TimeStop"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["BarricadeRepair"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["WraithMoney"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Berserker"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["StarterPistol"] = {
+                [1] = 3,
+                [2] = 1
+            },
+            ["LifeLink"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["HealBuff"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["ExplosionRadius"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["SecondaryPrice"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Overheal"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Armour"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Midnight"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["SprintRegen"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["BulletAttackSpeed"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["CriticalHeal"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["GrenadeRestore"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["ScopeCharge"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["ReducedAltDamage"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["KnifeDamageStack"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["ZombieVirus"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Glass"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["LowTarget"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["RoofCamp"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["StarterBodyBuilding"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["StarterEquipment"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["MinClip"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["DeathRestore"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["ArmourToHealth"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["StunDuration"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["CriticalSpeed"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["TempHPSpeed"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["NoScope"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["PistolDamage"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["StarterMoney"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["TeamInvestor"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["SellValue"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["DoTPlus"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["MeleeDamage"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["HeadStun"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["DoTSlow"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["ShopDamage"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["EquipmentCharge"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["UnluckyCharm"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["ImpactDamage"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["EquipmentChance"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["AmmoBoxRefill"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Investor"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["StealthRegen"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["SupplyExpert"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["ReducedDamage"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["AirBurst"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["HeadAmmo"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Assassin"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["WeaponUpgradePrice"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Health"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["MinSpread"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["ReloadSpeed"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["DoTMinus"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["DangerZone"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["ClusterChance"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["CriticalSlow"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["DisableADS1"] = {
+                [1] = 3,
+                [2] = 0
+            },
+            ["DeathImmune"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["EquipmentArmour"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["HealingPower"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["FrostRetaliate"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["GrenadeThrow"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["DangerClose"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["MaxClip"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["SpecialDamage"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Scavenger"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["JackOfTrades"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["LockingPerk"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["ExtraBulletChance"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["MovementPenalty"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["BulletHeavy"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["HealthRegen"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["EquipmentDuration"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["SprintTrail"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["EquipmentAttackSpeed"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["CriticalMoney"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["EscapeDeath"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["CriticalShock"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["SpeedAttackSpeed"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["CriticalWeight"] = {
+                [1] = 2,
+                [2] = 2
+            },
+            ["Dodge"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["EquipmentKillRefill"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["BorrowedTime"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["HeadDamage"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["PierceChance"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Overwatch"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["MeleeRampage"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["HighTarget"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["RunGun"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["CriticalRifle"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["CriticalWeaken"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["RangeDamage"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["HeatHighLow"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["LuckyCharm"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Implosion"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["ShotgunKnockback"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["MoneyPower"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["StealthClone"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["MaxAmmo"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["DoTHeal"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Pacifist"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["CriticalNoTarget"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["BarricadeResistance"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["WeaponWeight"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["KillFreeze"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["BossMoney"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["EnemyDamageStack"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["SprintDuration"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["KillHealth"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["GoldenTouch"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["HitMoney"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Spread"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["CriticalHead"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["LaserReload"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Lifesteal"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["ShadowSupply"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["CriticalMelee"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["ArmourRegen"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["MeleeRange"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["CriticalKnockback"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["HeatCooling"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Undying"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["LoneWolf"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["EquipmentAmount"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["ArmourImmune"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Ghost"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["MovementSpeed"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["CriticalDamage"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["KillMaxHealth"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["AimRecoil"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["RoundMoney"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Flank"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["CriticalDoT"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["AmmoChance"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Surrounded"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["ExtraMoney"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["GuardianAngel"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["StunRetaliation"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["EquipmentDamage"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["MeleeHeavy"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["BarricadeBuff"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["CriticalStealth"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["BulletRange"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["HeadExplode"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["KillIgnoreStamina"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Avenge"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["ShopPrice"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["BulletDamage"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["WolfPack"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Retaliation"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["HeatNova"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["Weight"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["WeightResistance"] = {
+                [1] = 0,
+                [2] = 0
+            },
+            ["BulletHeadshot"] = {
+                [1] = 0,
+                [2] = 0
+            }
+        },
+        ["Vibration"] = true,
+        ["BulletRangeZoom"] = 4,
+        ["AimAssist"] = true,
+        ["LegacyClaims"] = {
+            ["CustomMusic"] = false
+        },
+        ["MusicVolume"] = 1
+    }
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("SetReplicatedDataStore"):FireServer(unpack(args))
